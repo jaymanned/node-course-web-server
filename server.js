@@ -57,7 +57,7 @@ app.get('/projects', (req, res) => {
   // res.send('<h1>Hi ya all!<h1>');
 
   res.render('projects.hbs', {
-    pageTitle: 'About page'
+    pageTitle: 'Projects page'
   });
 });
 
